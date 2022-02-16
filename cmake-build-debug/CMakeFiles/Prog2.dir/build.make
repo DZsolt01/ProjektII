@@ -65,27 +65,27 @@ include CMakeFiles/Prog2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Prog2.dir/flags.make
 
-CMakeFiles/Prog2.dir/main.c.obj: CMakeFiles/Prog2.dir/flags.make
-CMakeFiles/Prog2.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adek\CLionProjects\Prog2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Prog2.dir/main.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Prog2.dir\main.c.obj -c C:\Users\Adek\CLionProjects\Prog2\main.c
+CMakeFiles/Prog2.dir/1/main.c.obj: CMakeFiles/Prog2.dir/flags.make
+CMakeFiles/Prog2.dir/1/main.c.obj: ../1/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adek\CLionProjects\Prog2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Prog2.dir/1/main.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Prog2.dir\1\main.c.obj -c C:\Users\Adek\CLionProjects\Prog2\1\main.c
 
-CMakeFiles/Prog2.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prog2.dir/main.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Adek\CLionProjects\Prog2\main.c > CMakeFiles\Prog2.dir\main.c.i
+CMakeFiles/Prog2.dir/1/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prog2.dir/1/main.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Adek\CLionProjects\Prog2\1\main.c > CMakeFiles\Prog2.dir\1\main.c.i
 
-CMakeFiles/Prog2.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prog2.dir/main.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Adek\CLionProjects\Prog2\main.c -o CMakeFiles\Prog2.dir\main.c.s
+CMakeFiles/Prog2.dir/1/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prog2.dir/1/main.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Adek\CLionProjects\Prog2\1\main.c -o CMakeFiles\Prog2.dir\1\main.c.s
 
 # Object files for target Prog2
 Prog2_OBJECTS = \
-"CMakeFiles/Prog2.dir/main.c.obj"
+"CMakeFiles/Prog2.dir/1/main.c.obj"
 
 # External object files for target Prog2
 Prog2_EXTERNAL_OBJECTS =
 
-Prog2.exe: CMakeFiles/Prog2.dir/main.c.obj
+Prog2.exe: CMakeFiles/Prog2.dir/1/main.c.obj
 Prog2.exe: CMakeFiles/Prog2.dir/build.make
 Prog2.exe: CMakeFiles/Prog2.dir/linklibs.rsp
 Prog2.exe: CMakeFiles/Prog2.dir/objects1.rsp

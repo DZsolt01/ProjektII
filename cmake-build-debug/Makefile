@@ -128,29 +128,29 @@ Prog2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/build
 .PHONY : Prog2/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+1/main.obj: 1/main.c.obj
+.PHONY : 1/main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/main.c.obj
-.PHONY : main.c.obj
+1/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/1/main.c.obj
+.PHONY : 1/main.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+1/main.i: 1/main.c.i
+.PHONY : 1/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/main.c.i
-.PHONY : main.c.i
+1/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/1/main.c.i
+.PHONY : 1/main.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+1/main.s: 1/main.c.s
+.PHONY : 1/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/main.c.s
-.PHONY : main.c.s
+1/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/1/main.c.s
+.PHONY : 1/main.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Prog2
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... 1/main.obj
+	@echo ... 1/main.i
+	@echo ... 1/main.s
 .PHONY : help
 
 
