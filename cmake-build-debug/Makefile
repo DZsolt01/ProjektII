@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Adek\CLionProjects\Prog2
+CMAKE_SOURCE_DIR = C:\Users\deak.zsolt\CLionProjects\ProjektII
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Adek\CLionProjects\Prog2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\deak.zsolt\CLionProjects\ProjektII\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\Adek\CLionProjects\Prog2\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -77,7 +77,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -86,9 +86,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adek\CLionProjects\Prog2\cmake-build-debug\CMakeFiles C:\Users\Adek\CLionProjects\Prog2\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deak.zsolt\CLionProjects\ProjektII\cmake-build-debug\CMakeFiles C:\Users\deak.zsolt\CLionProjects\ProjektII\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adek\CLionProjects\Prog2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\deak.zsolt\CLionProjects\ProjektII\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,53 @@ Prog2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/build
 .PHONY : Prog2/fast
 
-1/main.obj: 1/main.c.obj
-.PHONY : 1/main.obj
+1/Labor1.obj: 1/Labor1.c.obj
+.PHONY : 1/Labor1.obj
 
 # target to build an object file
-1/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/1/main.c.obj
-.PHONY : 1/main.c.obj
+1/Labor1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/1/Labor1.c.obj
+.PHONY : 1/Labor1.c.obj
 
-1/main.i: 1/main.c.i
-.PHONY : 1/main.i
+1/Labor1.i: 1/Labor1.c.i
+.PHONY : 1/Labor1.i
 
 # target to preprocess a source file
-1/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/1/main.c.i
-.PHONY : 1/main.c.i
+1/Labor1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/1/Labor1.c.i
+.PHONY : 1/Labor1.c.i
 
-1/main.s: 1/main.c.s
-.PHONY : 1/main.s
+1/Labor1.s: 1/Labor1.c.s
+.PHONY : 1/Labor1.s
 
 # target to generate assembly for a file
-1/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/1/main.c.s
-.PHONY : 1/main.c.s
+1/Labor1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/1/Labor1.c.s
+.PHONY : 1/Labor1.c.s
+
+1/MainH.obj: 1/MainH.c.obj
+.PHONY : 1/MainH.obj
+
+# target to build an object file
+1/MainH.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/1/MainH.c.obj
+.PHONY : 1/MainH.c.obj
+
+1/MainH.i: 1/MainH.c.i
+.PHONY : 1/MainH.i
+
+# target to preprocess a source file
+1/MainH.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/1/MainH.c.i
+.PHONY : 1/MainH.c.i
+
+1/MainH.s: 1/MainH.c.s
+.PHONY : 1/MainH.s
+
+# target to generate assembly for a file
+1/MainH.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/1/MainH.c.s
+.PHONY : 1/MainH.c.s
 
 # Help Target
 help:
@@ -161,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Prog2
-	@echo ... 1/main.obj
-	@echo ... 1/main.i
-	@echo ... 1/main.s
+	@echo ... 1/Labor1.obj
+	@echo ... 1/Labor1.i
+	@echo ... 1/Labor1.s
+	@echo ... 1/MainH.obj
+	@echo ... 1/MainH.i
+	@echo ... 1/MainH.s
 .PHONY : help
 
 
